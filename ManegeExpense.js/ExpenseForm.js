@@ -3,6 +3,7 @@ import { View, StyleSheet, Text, Alert } from "react-native";
 import { useState } from "react";
 import Button from "../UI/Button";
 
+
 function ExpensesForm({ onSubmit, onCancel, submitButtonLabel, defaultValues }) {
     const [inputs, setinputs] = useState({
         amount: {
